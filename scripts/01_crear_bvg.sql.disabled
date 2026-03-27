@@ -1,0 +1,12 @@
+-- Crear la base de datos
+CREATE DATABASE bvg
+    WITH
+    OWNER      = postgres
+    ENCODING   = 'UTF8'
+    LC_COLLATE = 'en_US.utf8'
+    LC_CTYPE   = 'en_US.utf8'
+    TEMPLATE   = template0
+    CONNECTION LIMIT = -1;
+ 
+-- Descripción de la base de datos
+COMMENT ON DATABASE bvg IS 'Banco de Vivienda Guatemala - Sistema de gestión bancaria';
